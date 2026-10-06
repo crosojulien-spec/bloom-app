@@ -12,7 +12,7 @@
 - No real `.env` file is included. A first secret-pattern scan did not identify a provider key; this is not an exhaustive guarantee about source history, which is not included.
 - Replit reports a successfully published deployment at [bloommm.fr](https://bloommm.fr). The identity of its deployed build with the exported commit has not been independently established.
 
-No fresh application build, full live journey, external email delivery, database migration or real AI evaluation was run to produce these documents.
+During repository recovery on 6 October 2026, the private source passed a fresh dependency installation, application and quality TypeScript checks, all 43 isolated quality tests, and the client/server build on Windows with Node.js 24.18.0. The 169 exported source hashes still match the original manifest. These new results supplement the historical report below; no full live journey, external email delivery, database migration or real AI evaluation was run.
 
 ## Built in the source
 
@@ -59,3 +59,4 @@ These are proposed priorities derived from the source and reports. They are not 
 Code presence shows that a mechanism is implemented. A saved output shows what one run produced. A dated report describes the checks performed at that time. Publication status shows that a deployment exists. None of those alone demonstrates restaurant execution, guest satisfaction, time saved or a commercial result.
 
 **Sources:** `EXPORT_MANIFEST.json`, `EXPORT_REDACTIONS.json`, `EXPORT_README.md`, current source modules, `quality/reports/validation-preview-2026-09-21.md` and the 6 October read-only inspection of existing AI traces.
+

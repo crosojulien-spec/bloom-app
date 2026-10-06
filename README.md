@@ -12,7 +12,7 @@ The restaurant keeps authorship: its identity informs the proposals, the chef de
 **Built by:** [Julien](https://github.com/crosojulien-spec)  
 **Documentation snapshot:** 6 October 2026, based on the source export dated 25 September 2026.
 
-This repository is the public product and technical introduction. The full source and detailed prompts are intended for a separate private repository. Source access can be discussed with Julien; no private source repository is linked here until it has been created.
+This repository is the public product and technical introduction. The full source, detailed prompts, tests and developer documentation are in [bloom-app-source](https://github.com/crosojulien-spec/bloom-app-source), a private repository requiring authorised access. Contact Julien to discuss source access.
 
 ## Choose your starting point
 
