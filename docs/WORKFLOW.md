@@ -2,6 +2,8 @@
 
 The current application links guest input, restaurant context and professional decisions. The diagrams describe the source snapshot dated 25 September 2026, with qualifications where the implementation differs from the intended operating model.
 
+For a visual example, follow [The Last Spoonful](demos/the-last-spoonful/README.md), captured at [bloommm.fr](https://bloommm.fr) on 6 October 2026. It shows the live app with a fictional dinner and simulated chef decisions.
+
 ## Guest and chef journey
 
 ```mermaid

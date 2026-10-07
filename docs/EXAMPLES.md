@@ -1,8 +1,20 @@
 # Existing examples and recorded results
 
-This document shows what is available in the existing evidence. It does not invent dishes, conversations or customer outcomes to complete the product story.
+Start with the illustrated live-app demo below. The older development reports and scripted examples are retained separately so their dates and limits remain clear.
 
-## 1. A documented development journey
+## 1. The Last Spoonful: a captured live-app journey
+
+**[Read the illustrated walkthrough](demos/the-last-spoonful/README.md)** · **[Open the 11-slide PDF](demos/the-last-spoonful/BlooM%20-%20The%20Last%20Spoonful%20-%20Presentation.pdf)**
+
+A fictional 40th birthday for a guest, his wife and two Czech friends brings together memories of China and Prague. The run was captured at [bloommm.fr](https://bloommm.fr) on **6 October 2026**.
+
+The same dossier was followed through discovery, a corrected recap, generated dishes, simulated chef decisions, menu selection, final confirmation and both generated professional packs. Suggestions include a hong shao rou dish, a plum dessert to share, plating ideas and small service gestures.
+
+The screenshots and generated outputs come from the application. The dinner, chef approval and prices are simulated. The restaurant has not approved or delivered the meal. The separate restaurant-DNA image is an English reading view prepared from the saved profile, not a native profile-editor screen.
+
+[Evidence notes](demos/the-last-spoonful/evidence.md) record the manual recap corrections, draft profile, pack-review state and failed operator-email attempt. This run supplements the earlier evidence; it does not validate every prompt or demonstrate commercial results.
+
+## 2. Earlier development journeys
 
 The existing [preview-validation report dated **21 September 2026**](evidence/preview-validation-2026-09-21.md) describes complete development journeys using two restaurant profiles.
 
@@ -32,7 +44,7 @@ This is a report of a development test. It is not evidence of a paying customer 
 
 The original report is retained in the source export at `quality/reports/validation-preview-2026-09-21.md` and copied into this repository's evidence appendix. It does not include the full fifteen-dish output or a complete saved chef response.
 
-## 2. Recorded AI output on an existing synthetic menu
+## 3. Recorded AI output on an existing synthetic menu
 
 A separate recorded test, **`packs-labula`**, has actual saved AI responses for Chef and Service packs. It used a synthetic menu and context already defined in `quality/evaluate-ai.ts`.
 
@@ -79,10 +91,10 @@ Original French output:
 
 This historical response also contained a `PACK CHEF` section inside the Service output. That is a recorded defect, not an example of the desired current format. The current prompt explicitly requires the two pack types to remain separate and distinguishes unknown permissions from explicit refusals; these historical outputs do not validate the revised prompt.
 
-## 3. What is still missing from the evidence set
+## 4. How these examples fit together
 
-The inspected records do not provide one continuous saved case linking all of these: Benkei conversation, the complete fifteen proposals, a real chef adaptation, final guest confirmation and both resulting packs.
+The Last Spoonful now provides a captured software journey through final confirmation and both generated packs. Its chef decisions remain simulated: an independently participating restaurant, a real meal and customer feedback are still missing from this evidence set.
 
-The preview journey and the pack fixture above are **different cases**. They have not been joined to suggest a complete end-to-end capture. No replacement conversation, menu, adaptation or brief has been generated for this documentation.
+The September preview journeys, the synthetic pack fixture and the October demo are **different cases**. They have not been combined into one customer story. The new demo uses its own recorded outputs.
 
 **Provenance:** the exported test script and preview report, plus a read-only inspection of existing Replit test traces on 6 October 2026. The original trace directory was excluded from the uploaded source ZIP; the inspection transcript is preserved with the private preparation files.

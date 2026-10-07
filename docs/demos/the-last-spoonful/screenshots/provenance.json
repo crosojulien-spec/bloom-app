@@ -1,0 +1,52 @@
+{
+  "captureDate": "2026-10-06",
+  "browser": "Microsoft Edge",
+  "scenario": "Fictional 40th birthday for four adults, English run",
+  "files": [
+    {
+      "file": "01 - A memory worth sharing.jpg",
+      "source": "Live BlooM application at https://bloommm.fr/",
+      "sha256": "9456e250ef3e494bfb7eb165041744ed7cc5e0bfccd835e8023e543d0eda3995"
+    },
+    {
+      "file": "02 - Beyond the ingredients.jpg",
+      "source": "Live BlooM application at https://bloommm.fr/",
+      "sha256": "8fe82110176449415644e8d0c09e762b638d6a6c8e8b4ad69737e91fd9f28eab"
+    },
+    {
+      "file": "05 - Off-menu, subject to the chef.jpg",
+      "source": "Live BlooM application at https://bloommm.fr/",
+      "sha256": "3dcb706e69c29eb423f290b01ef2bdd3936ebd9852d090bfbed7e76ee1bc3ff3"
+    },
+    {
+      "file": "06 - Four spoons, one shared memory.jpg",
+      "source": "Live BlooM application at https://bloommm.fr/",
+      "sha256": "58d32f75603a5e5bc42457eefe2927044bfa9e2ea4c8a148a563c60891151139"
+    },
+    {
+      "file": "07 - The chef decides.jpg",
+      "source": "Live BlooM application at https://bloommm.fr/",
+      "sha256": "adae287d6c0fc7c99d9cfdfa466fad6e1027de0a83283de4f6cb1dbcfe00f93b"
+    },
+    {
+      "file": "09 - The guest chooses.jpg",
+      "source": "Live BlooM application at https://bloommm.fr/",
+      "sha256": "50f6585aee91548a96af630b7e2b409d6d204921880f887fe1b782df66c8c9c1"
+    },
+    {
+      "file": "11 - Plating the last spoonful.jpg",
+      "source": "Live BlooM application at https://bloommm.fr/",
+      "sha256": "2d7e2bfb47372cd178ea1f4058b81e78f6e7878194f611bcda238a5fb49ab84b"
+    },
+    {
+      "file": "12 - Service brings the memory to the table.jpg",
+      "source": "Live BlooM application at https://bloommm.fr/",
+      "sha256": "ee8efd31220f4700cefd6e8eead33ae97bd4b3fb799202bfae5a58cf69212603"
+    },
+    {
+      "file": "14 - Restaurant DNA.jpg",
+      "source": "Local English reading view of the live restaurant DNA export; not a production editor",
+      "sha256": "3382eea9c287e086f2ed27b6bca9bd906fb606c92f766a88b07e0fa0e6bf770e"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 # Product and vision
 
-BlooM helps a restaurant turn what a guest shares about a meaningful meal into useful material for the chef and dining room. The guest's intention travels through the process: conversation, recap, culinary proposals, chef decisions, confirmed menu and operational briefs.
+BlooM helps a guest and a restaurant create a meal around a story, a memory or a moment the guest wants to share. The chef and service team bring their expertise to the food, its presentation and the welcome around the table.
+
+See this in [The Last Spoonful](demos/the-last-spoonful/README.md), a captured live-app journey from a 40th-birthday wish to a chosen menu and kitchen and service suggestions. Visit the published application at [bloommm.fr](https://bloommm.fr).
 
 ## The idea
 
@@ -38,7 +40,7 @@ The software holds several distinct outputs:
 - A final menu recorded after the guest's selection.
 - Separate Chef and Service draft packs, with review status and editing tools.
 
-The existing packs are text. A built-in PDF, DOCX or presentation export has not been established in the current snapshot.
+The existing packs are text. The PDF in this repository was prepared separately to explain the demo; it is not a built-in product export. A built-in PDF, DOCX or presentation export has not been established in the current snapshot.
 
 ## Principles expressed in the current prompts
 

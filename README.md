@@ -2,47 +2,55 @@
 
 <img src="assets/bloom-logo.svg" alt="BlooM" width="140">
 
-**From a guest's story to a meal and service shaped by the restaurant.**
+**The guest's story, brought to life by the restaurant's craft.**
 
-BlooM is an AI-assisted application for personalised restaurant experiences. A guest shares the occasion, wishes, tastes and constraints through a conversation with Benkei. The application turns that information into culinary directions, supports the guest's selection and the chef's adaptations, then prepares separate working briefs for the kitchen and dining room.
+A guest brings a memory, an occasion or a moment they want to share. The chef and the team bring the skills, ideas and care to make it part of the meal.
 
-The restaurant keeps authorship: its identity informs the proposals, the chef decides what is feasible and sets the price, and the guest confirms the proposed menu.
+BlooM helps them create it together. An AI conversation gathers what matters to the guest. The restaurant's profile guides ideas for the food, presentation and service. The chef reviews the suggestions and sets the prices; the guest chooses a menu.
 
-**Published application:** [bloommm.fr](https://bloommm.fr)  
-**Built by:** [Julien](https://github.com/crosojulien-spec)  
-**Documentation snapshot:** 6 October 2026, based on the source export dated 25 September 2026.
+**[Visit bloommm.fr](https://bloommm.fr)** · **[Read the 11-slide demo (PDF)](docs/demos/the-last-spoonful/BlooM%20-%20The%20Last%20Spoonful%20-%20Presentation.pdf)** · **[Follow the illustrated walkthrough](docs/demos/the-last-spoonful/README.md)**
 
-This repository is the public product and technical introduction. The full source, detailed prompts, tests and developer documentation are in [bloom-app-source](https://github.com/crosojulien-spec/bloom-app-source), a private repository requiring authorised access. Contact Julien to discuss source access.
+## See it through one dinner
 
-## Choose your starting point
+[![The Last Spoonful: a 40th birthday between China and Prague](assets/the-last-spoonful-cover.png)](docs/demos/the-last-spoonful/BlooM%20-%20The%20Last%20Spoonful%20-%20Presentation.pdf)
 
-| You want to… | Read |
+For his 40th birthday, a guest wants to share memories of China with his wife and two Czech friends. He remembers hong shao rou and sharing the last spoonful of sauce. Their friends' plum desserts bring Prague into the story.
+
+The demo follows that request through restaurant DNA, an off-menu dish idea, a chef review, the guest's choice and suggestions for the kitchen and service team. The personal touches include a bowl to share, four spoons and a quiet introduction at the table.
+
+**Real app, fictional dinner.** Captured on 6 October 2026 at bloommm.fr. The application generated the suggestions and packs; chef decisions and prices were simulated. The restaurant has not approved or served this meal. [Read the evidence notes.](docs/demos/the-last-spoonful/evidence.md)
+
+## What this makes possible
+
+For the guest, a meal can become a way to share something personal with others.
+
+For the restaurant, it opens up more of what its people can do, beyond the dishes listed on a menu: a chef's cooking and presentation, the team's welcome, and the small touches that make an evening feel special. The team decides what is feasible and what it can offer.
+
+## How it works
+
+1. **Tell the story.** The guest opens a restaurant-linked invitation and talks with Benkei, BlooM's AI assistant, then checks the recap.
+2. **Explore ideas.** BlooM uses the guest's wishes and the restaurant's DNA to suggest dishes. The guest selects preferences.
+3. **Let the chef decide.** The chef accepts, changes or removes suggestions and sets prices.
+4. **Choose the meal.** The guest selects and confirms a proposed menu. Payment is simulated in the current app.
+5. **Prepare the details.** Separate Chef and Service packs suggest preparation, presentation and service ideas for human review.
+
+Restaurant DNA records the cooking style, ingredients, reference dishes and service limits. It helps ground the ideas in what the restaurant does. Stock, equipment and special gestures still need the team's confirmation.
+
+## Explore the project
+
+| Looking for | Start here |
 |---|---|
-| Understand the idea and who it serves | [Product and vision](docs/PRODUCT.md) |
-| Follow the guest, chef and operator journeys | [Workflow and roles](docs/WORKFLOW.md) |
-| See existing examples and recorded results | [Examples and evidence](docs/EXAMPLES.md) |
-| Understand how the application is built | [Technical overview](docs/TECHNICAL.md) |
-| Assess what is built, tested and still to verify | [Current status](docs/STATUS.md) |
+| A concrete example, with screenshots | [The Last Spoonful](docs/demos/the-last-spoonful/README.md) |
+| The idea, users and restaurant DNA | [Product](docs/PRODUCT.md) |
+| The guest, chef and operator journey | [Workflow](docs/WORKFLOW.md) |
+| The live demo and earlier development examples | [Examples and evidence](docs/EXAMPLES.md) |
+| What works, what was tested and what needs work | [Current status](docs/STATUS.md) |
+| Architecture and source setup | [Technical overview](docs/TECHNICAL.md) |
 
-## The experience
+## Current stage and source access
 
-1. An invitation associates the guest's journey with a restaurant.
-2. Benkei gathers useful context; the guest checks and confirms an editable recap.
-3. BlooM prepares five starters, five mains and five desserts, guided by the restaurant profile and guest constraints.
-4. The guest selects and ranks preferences; the chef evaluates, adapts and prices menu proposals.
-5. The guest chooses and confirms a proposal.
-6. BlooM generates Chef and Service draft packs, with operator tools to review, edit and approve them.
+BlooM is a working MVP with a published site at [bloommm.fr](https://bloommm.fr). The captured demo reaches menu confirmation and both generated packs. It demonstrates the software journey; restaurant delivery and commercial results remain to be validated. [Current status](docs/STATUS.md) records the known limits and dated checks.
 
-The briefs can suggest meaningful ways to prepare and serve the meal. They remain conditional options tied to the restaurant's documented capabilities and the agreed menu.
+This public repository is the product showcase and documentation. It has no application code to install. The full source, prompts, tests and setup instructions are in the private [bloom-app-source](https://github.com/crosojulien-spec/bloom-app-source) repository. Contact [Julien](https://github.com/crosojulien-spec) to discuss the project or source access.
 
-## Where the project stands
-
-The export contains the guest journey, chef workspace, administration dashboard, AI prompts, database schema and quality tests. A development report records complete preview journeys for two restaurant profiles on 21 September 2026. This is evidence of development testing, not a claim that these restaurants have served paying BlooM guests.
-
-Payment is currently a simulation. External deployment requires configuration work. The code snapshot, historical test results and the live deployment are distinguished throughout these documents; the live site's publication status was checked on 6 October, but its complete operational journey was not rerun for this documentation.
-
-## Why share this repository?
-
-For a curious reader, it explains the product through its users and outputs. For a builder, it makes the process and human decisions visible. For a developer, it identifies the architecture, dependencies and contribution areas before source access.
-
-Every example comes from an existing document, test input or recorded output. Missing steps have not been invented or joined into a fictional end-to-end result.
+Documentation updated 7 October 2026. Live demo captured 6 October 2026; technical documentation refers to the source export dated 25 September 2026.

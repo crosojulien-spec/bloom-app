@@ -2,6 +2,8 @@
 
 BlooM is a TypeScript web application with a React frontend and an Express backend. The current source remains an export of the existing Replit application; this documentation does not claim that it has already been made portable or redeployed.
 
+The published application is at [bloommm.fr](https://bloommm.fr). This repository contains its public introduction and [captured demo](demos/the-last-spoonful/README.md); it has no runnable application code. Developers with access can use the [private source and setup guide](https://github.com/crosojulien-spec/bloom-app-source/blob/main/docs/DEVELOPER_GUIDE.md).
+
 ## Components
 
 | Component | Current implementation | Responsibility |
